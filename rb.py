@@ -1,4 +1,4 @@
-import requests
+..import requests
 import time
 import json
 import itertools
@@ -14,22 +14,30 @@ def animate():
         sys.stdout.write('\rloading ' + c)
         sys.stdout.flush()
         time.sleep(0.1)
-    sys.stdout.write('\rEnter Login detials! , coded by @x69z2     ')
-print  = ("""
-				
-				
-		▀▄░▄▀ ▄▀▀▄ ▄▀▀▄ ░█▀▀▀█ █▀█ 
-─░█── █▄▄─ ▀▄▄█ ─▄▄▄▀▀ ─▄▀ 
-▄▀░▀▄ ▀▄▄▀ ─▄▄▀ ░█▄▄▄█ █▄▄
-   
+    sys.stdout.write('\rEnter Login detials! , coded by kd1s.com     ')
+
+t = threading.Thread(target=animate)
+
+print("""
+
+
+
+
+
+       ̯̭̫̞̺̫̟͜K̯̭̫̞̺̫̟̾̃̈́̑̽̎̒͘͜D̨͎͖̰̫͎͔̱̾̃̈́̑̽̎̒͘1̨͎͖̰̫͎͔̱̐̊̐̀̀̈́͗̕S̐̊̐̀̀̈́͗̕
+ 
     
     ＳＰＡＭ       BoT
 
-                                                                                   """)
+
+
+   
+                                               
+                                     """)
 time.sleep(10)
 print("————————————————————————————————————")
-print("@x69z2")
-print("——————————@x69z2————————————————")
+print("www.kd1s.com")
+print("——————————Kd1s.com————————————————")
 t.start()
 
 time.sleep(10)
@@ -69,7 +77,7 @@ if login.text.find("userId") >= 0 :
      spam = "https://www.instagram.com/users/"+idinsta+"/report/"
      spamr = r.post(spam,data=data2)
      if spamr.text.find("Your reports help keep our community free of spam."):
-          print("[√] Done Report spam:",Target,' @x69z2')
+          print("[√] Done Report spam:",Target,' —— kd1s.com')
           time.sleep(1)
     else:
         print("[-] Error Report spam")
