@@ -14,8 +14,7 @@ def animate():
         sys.stdout.write('\rloading ' + c)
         sys.stdout.flush()
         time.sleep(0.1)
-    sys.stdout.write('\rEnter Login detials! , coded by kd1s.com     ')
-
+    sys.stdout.write('\rEnter Username     ')
 t = threading.Thread(target=animate)
 
 print("""
@@ -24,10 +23,11 @@ print("""
 
 
 
-       ̯̭̫̞̺̫̟͜K̯̭̫̞̺̫̟̾̃̈́̑̽̎̒͘͜D̨͎͖̰̫͎͔̱̾̃̈́̑̽̎̒͘1̨͎͖̰̫͎͔̱̐̊̐̀̀̈́͗̕S̐̊̐̀̀̈́͗̕
- 
-    
-    ＳＰＡＭ       BoT
+  ▀▄░▄▀ ▄▀▀▄ ▄▀▀▄ ░█▀▀▀█ █▀█ 
+  ─░█── █▄▄─ ▀▄▄█ ─▄▄▄▀▀ ─▄▀ 
+  ▄▀░▀▄ ▀▄▄▀ ─▄▄▀ ░█▄▄▄█ █▄▄
+
+          ＳＰＡＭ       BoT
 
 
 
@@ -35,9 +35,9 @@ print("""
                                                
                                      """)
 time.sleep(10)
-print("————————————————————————————————————")
-print("www.kd1s.com")
-print("——————————Kd1s.com————————————————")
+print("——————————@x69z2.bot——————————————————————————")
+print("")
+print("——————————Bot.Spam————————————————")
 t.start()
 
 time.sleep(10)
@@ -77,7 +77,7 @@ if login.text.find("userId") >= 0 :
      spam = "https://www.instagram.com/users/"+idinsta+"/report/"
      spamr = r.post(spam,data=data2)
      if spamr.text.find("Your reports help keep our community free of spam."):
-          print("[√] Done Report spam:",Target,' —— kd1s.com')
+          print("[√] Done Report spam:",Target,' —— @x69z2')
           time.sleep(1)
     else:
         print("[-] Error Report spam")
@@ -86,4 +86,4 @@ else:
     if login.text.find("checkpoint_required"):
      print("[-] Error..secure account !")
     else:
-         print('[-] Error..worng Pasword') 
+         print('[-] Error..wrong Pasword') 
