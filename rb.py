@@ -14,7 +14,7 @@ def animate():
         sys.stdout.write('\rloading ' + c)
         sys.stdout.flush()
         time.sleep(0.1)
-    sys.stdout.write('\rEnter Login detials! , coded by @x69z2          ')
+    sys.stdout.write('\rEnter username')
 t = threading.Thread(target=animate)
 
 print("""
@@ -43,7 +43,7 @@ t.start()
 time.sleep(10)
 done = True
 username = input("Enter username:")
-pasword = input("Enter Pasword:")
+pasword = input("Enter Password:")
 Target = input("Enter Target:")
 r = requests.session()
 url = "https://www.instagram.com/accounts/login/ajax/"
