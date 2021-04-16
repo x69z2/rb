@@ -14,7 +14,7 @@ def animate():
         sys.stdout.write('\rloading ' + c)
         sys.stdout.flush()
         time.sleep(0.1)
-    sys.stdout.write('\rEnter Username     ')
+    sys.stdout.write('\rEnter Login detials! , coded by @x69z2          ')
 t = threading.Thread(target=animate)
 
 print("""
@@ -27,7 +27,7 @@ print("""
   ─░█── █▄▄─ ▀▄▄█ ─▄▄▄▀▀ ─▄▀ 
   ▄▀░▀▄ ▀▄▄▀ ─▄▄▀ ░█▄▄▄█ █▄▄
 
-          ＳＰＡＭ       BoT
+          BoT      ＳＰＡＭ
 
 
 
